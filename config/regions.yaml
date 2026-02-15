@@ -1,0 +1,13 @@
+regions:
+  TH:
+    name: "Thailand"
+    currency: "THB"
+    central_bank: "Bank of Thailand"
+  SG:
+    name: "Singapore"
+    currency: "SGD"
+    central_bank: "Monetary Authority of Singapore"
+  HK:
+    name: "Hong Kong"
+    currency: "HKD"
+    central_bank: "Hong Kong Monetary Authority"

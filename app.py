@@ -12,8 +12,8 @@ import plotly.graph_objects as go
 from datetime import datetime
 
 # Core imports
-from core.model import FraudDetectionModel
-from core.privacy import apply_differential_privacy, PrivacyBudget
+from core.model import FraudDetectionMLP, FraudDetector
+from core.privacy import DifferentialPrivacy, PrivacyBudget
 from core.synthetic import generate_transactions, get_aggregated_patterns
 from config.regions import REGIONS
 
